@@ -2,7 +2,7 @@
 
 > *Because broken images shouldn’t break the experience.*
 
-![Demo GIF](assets/demo.gif) 
+![Demo GIF](https://github.com/Arjundixit18/PhantomImageGuard/blob/main/assets/Handling%20Failed%20Image.png) 
 
 ---
 
@@ -32,25 +32,30 @@ Instead of ugly broken icons ❌, it **dynamically transforms** your UI with sty
 
 ### Broken Image (Handled)
 
-![Broken Image Demo](assets/broken-demo.png) 
+![Broken Image Demo](https://github.com/Arjundixit18/PhantomImageGuard/blob/main/assets/Broken%20Image.png) 
 
 ### Valid Image (Styled)
 
-![Valid Image Demo](assets/valid-demo.png) 
+![Valid Image Demo](https://github.com/Arjundixit18/PhantomImageGuard/blob/main/assets/Valid%20Image.png) 
 
 ---
 
 ## 📂 Project Structure
 
 ```
+
 PhantomImageGuard/
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── index.html
-├── styles.css
 ├── script.js
+├── styles.css
 └── assets/
-    ├── demo.gif
-    ├── broken-demo.png
-    └── valid-demo.png
+    ├── Broken Image.png
+    ├── Handling Failed Image.png
+    └── Valid Image.png
+
 ```
 
 ---
