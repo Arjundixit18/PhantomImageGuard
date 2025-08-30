@@ -143,6 +143,6 @@ PRs welcome! If you have cool animations, drop them in 🎉
 
 ## 📜 License
 
-MIT © 2025 — Crafted with ❤️ by [YourName](https://github.com/Arjundixit18)
+MIT © 2025 — Crafted with ❤️ by [Arjun Dixit](https://github.com/Arjundixit18)
 
 ---
