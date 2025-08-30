@@ -1,1 +1,81 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Image container */
+.image-container {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  background: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover zoom effect */
+.image-container:hover {
+  transform: scale(1.05);
+}
+
+/* Image styling */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+/* Keyframes for fade-in */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fallback styling */
+.fallback {
+  background: linear-gradient(135deg, #ececec, #d4d4d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: pulse 1.5s infinite;
+}
+
+.fallback::before {
+  content: "⚠️";
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.fallback::after {
+  content: "Image not available";
+  font-size: 14px;
+  color: #444;
+}
+
+/* Pulse animation for fallback */
+@keyframes pulse {
+  0% { background-color: #e0e0e0; }
+  50% { background-color: #f0f0f0; }
+  100% { background-color: #e0e0e0; }
+}
 
